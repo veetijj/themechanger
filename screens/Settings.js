@@ -1,8 +1,8 @@
 import React from "react"
 import { View } from "react-native"
 import ThemeSwitchButton from "../components/ThemeSwitchButton"
-import { useTheme } from "../context/useTheme"
-import Styles from "../Styles"
+import { useTheme } from "../components/useTheme"
+import Styles from "../components/Styles"
 
 export default function Settings() {
     const { isDarkMode } = useTheme()

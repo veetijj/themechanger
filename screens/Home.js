@@ -1,7 +1,7 @@
 
 import React, {useContext} from 'react';
-import { useTheme } from '../context/useTheme';
-import Styles from '../Styles';
+import { useTheme } from '../components/useTheme';
+import Styles from '../components/Styles';
 import { View, Text } from 'react-native';
 
 export default function Home() {

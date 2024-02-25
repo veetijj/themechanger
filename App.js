@@ -6,7 +6,7 @@ import { Provider as PaperProvider } from 'react-native-paper';
 import { NavigationContainer } from '@react-navigation/native';
 import Settings from './screens/Settings';
 import Home from './screens/Home'
-import ThemeProvider from './context/ThemeProvider';
+import ThemeProvider from './components/ThemeProvider';
 
 export default function App() {
   const Stack = createNativeStackNavigator()
